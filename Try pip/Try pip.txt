@@ -1,0 +1,45 @@
+C:\Users\JK Holiday\Documents\Coding Dojo>pip install django
+Collecting django
+  Downloading Django-1.11.3-py2.py3-none-any.whl (6.9MB)
+    100% |################################| 7.0MB 110kB/s
+Collecting pytz (from django)
+  Downloading pytz-2017.2-py2.py3-none-any.whl (484kB)
+    100% |################################| 491kB 547kB/s
+Installing collected packages: pytz, django
+Successfully installed django-1.11.3 pytz-2017.2
+
+//Telling pip to install django, downloading and installing django, downloading and installing python timezone library 
+
+C:\Users\JK Holiday\Documents\Coding Dojo>pip list
+DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.
+Django (1.11.3)
+pip (9.0.1)
+pytz (2017.2)
+setuptools (16.0)
+
+
+C:\Users\JK Holiday\Documents\Coding Dojo>pip install Django
+Requirement already satisfied: Django in c:\python27\lib\site-packages
+Requirement already satisfied: pytz in c:\python27\lib\site-packages (from Django)
+
+//It means the action was already performed
+
+C:\Users\JK Holiday\Documents\Coding Dojo>pip freeze
+Django==1.11.3
+pytz==2017.2
+
+//Outputs installed packages in requirements format
+
+C:\Users\JK Holiday\Desktop>pip freeze > requirements.txt
+
+//pip output the freeze command to a .txt document
+
+//pip uninstalled Django
+
+//pip showed nothing when command to show Django ran
+
+//pip searched for flask in a list of programs?
+
+
+
+
